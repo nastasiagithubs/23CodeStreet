@@ -1,0 +1,38 @@
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #333;
+    border-radius: 100%;
+    margin: auto;
+    
+    
+}
+.triangle {
+    height:0px;
+    width:0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid #333;
+    margin:auto;
+}
+
+.legs {
+    margin-left: 48%;
+    width: 100%;
+}
+
+.leg1 {
+    height: 100px;
+    width: 20px;
+    margin-right: 10px;
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+
+.leg2 {
+    height: 100px;
+    width: 20px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    
+}

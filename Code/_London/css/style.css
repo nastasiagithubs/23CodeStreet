@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Work+Sans:600');
+
+
+header {
+    background-image: url(../images/bike.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+}
+
+header h1 {
+    font-size: 5.5em;
+    text-align: center;
+    color: #ffdde2;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform:translateX(-50%, -50%);
+	-moz-transform:translateX(-50%, -50%);
+	-ms-transform:translateX(-50%, -50%);
+    line-height: 1.2em;
+/*    text-shadow: 2px 2px 5px #333;*/
+}
+
+#main-nav li {
+    text-align: center;
+    padding: 20px 0px;
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+#main-nav {
+/*    text-align: center;*/
+    position: fixed;
+    margin-left: 2em;
+}
+
+
+#main-nav a{
+    text-decoration: none;
+    border-bottom: 5px solid #ffdde2;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.2em;
+    color: #333;
+    transition: 0.3s;
+}
+
+#main-nav a:hover {
+    border-bottom: 5px solid #333;
+}
+
+p {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #333;
+    width: 60%;
+    margin: auto;
+    padding: 3em 0; 
+}
+
+#eat {
+    background-color: #FCE5E5;
+    text-align: center;
+}
+
+#drink {
+    background-color: #dce2e2;
+    text-align: center;
+}
+
+#see {
+    background-color: #ccc;
+    text-align: center;
+}
+
+
+.title-name {
+    font-family: 'Anonymous Pro', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #444;
+    margin: 40px 0px;    
+}
+
+.section-img {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+    padding: 40px 0;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 7em;
+    position: relative;
+    top: 0.8em;
+    color: #fff;
+}
+
+h2 {
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 3em;
+}
+
+h3 {
+    display: block;
+    max-width: 60%;
+    margin: 3em auto;
+    line-height: 1.3em;
+    text-align: left;
+}
+
+.title-name {
+    text-align: center;
+    font-size: 1.6em;
+    border-bottom: 5px solid #333;
+    margin-top: 2em;
+    transition: 0.3s;
+    display: block;
+    width: fit-content;
+    margin: 0.5em auto;
+}
+
+.title-name:hover {
+    font-size: 1.8em;
+}
+
+
+footer {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    height: auto;
+    text-align: center;
+    background-color: #FFDDE2;
+    
+}
+
+footer small {
+    font-family: 'Anonymous Pro', sans-serif;
+    font-size: 12px;
+    color: #333;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+#top-logo {
+    width: 20%;
+    margin: 20px auto;
+    display: block;
+}
+
+#top-nav {
+    height: 100px;
+    background-color: #F7E730;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#top-nav li {
+    display: inline-block;
+    
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+#top-nav a {
+    text-decoration: none;
+    margin: 40px 30px;
+    color: #333;
+}
+
+#top-nav a:hover {
+    text-decoration-line: underline;
+}
+
+#top-main {
+    display: inline-block;
+    background-color: #efefef;
+    border-bottom: 10px solid #F7E730;
+}
+
+#top-main img {
+    max-width: 50%;
+    float: left;
+}
+
+#top-line {
+    max-width: 50%;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    padding-top: 18%;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    float: right;
+}
+
+#blog {
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    margin: 40px 5px;
+}
+
+.box-title {
+    margin: 40px 10px;
+    color: #F7E730;
+    text-transform: uppercase;
+    text-shadow: #111 1px 1px, #111 2px 2px, #111 3px 3px, #111 4px 4px, #111 5px 5px;
+}
+
+#adoptadog {
+    background-image: url("../img/dog1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#adoptacat {
+    background-image: url("../img/cat1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#mischief {
+    background-image: url("../img/blog.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    background-image: url("../img/contact.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    padding: 8px 20px;
+    margin-top: 40px;
+    background-color: #F7E730;
+    color: #111;
+    border: 4px solid #F7E730;
+    border-radius: 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    box-shadow: #111 5px 5px;
+    
+}
+
+button:hover {
+    box-shadow: #333 6px 6px;
+}
+
+footer {
+    height: 100px;
+    text-align: left;
+    background-color: #f7e730;
+}
+
+footer small {
+    display: inline-block;
+    padding-top: 50px;
+    padding-left:6em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#socialmediaicons {
+    display: inline-block;
+    float: right;
+    padding-top: 40px;
+    padding-right: 6em;
+}

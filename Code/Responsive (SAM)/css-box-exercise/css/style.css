@@ -1,0 +1,122 @@
+/*ROOT*/
+/**
+* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.box {
+    border: 3px solid black;
+}
+
+nav.box {
+    width: 100%;
+    height: auto;
+}
+
+nav li.box {
+    width: 15%;
+    height: 80px;
+    float: left;
+    margin: 6px 3px 6px 6px;
+}
+
+
+.nav_btn div.line {
+    border-bottom: 3px solid black;
+    width: 20px;
+    margin: 3px 3px;
+}
+
+nav li.nav_btn {
+    height: auto;
+    width: auto;
+    float: right;
+    margin-right: 1%;
+    display: none;
+}
+
+.carousel {
+    width: 100%;
+    height: 100px;
+    margin: 1% 0;
+}
+
+ul.panels{
+    height: auto;
+    text-align: center;
+}
+
+.panels li.box {
+    height: 200px;
+    float: left;
+    width: 24%;
+    margin: 0.8% 0.6%;
+}
+
+.panels li:last-child {
+    margin-right: 0;
+}
+
+.panels li:first-child {
+    margin-left: 0;
+}
+
+footer {
+    border: 3px solid black;
+    width: 100%;
+    height: auto;
+}
+
+ul.links {
+    text-align: center;
+}
+
+ul.links li{
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    margin: 0.8% 0.8%;
+}
+
+@media screen and (max-width:500px) {
+    
+    .carousel {
+        height: 300px;
+    }
+    
+    nav li.box {
+    display:none;
+    }
+    
+    nav li.nav_btn {
+        display: block;
+    }
+    
+    .panels li.box {
+    height: 100px;
+    display: block;
+    width: 100%;
+    margin: 1% 0;
+}
